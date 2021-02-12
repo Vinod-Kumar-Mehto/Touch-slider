@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2;
+    background-color: rgb(75, 69, 75);
+    color: white;
+    
+}
+
+.container{
+    height: 100vh;
+    display: inline-flex;
+    cursor: grab;
+    transition: all 0.7s;
+    overflow: hidden;
+    
+    
+}
+
+.slide{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.slide img{
+    max-width: 100%;
+    max-height: 70%;
+}
+.slide h1{
+    text-shadow: 2px 2px 5px black;
+}
+.slide h3{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.slide a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    width: 40px;
+    max-height: 30px;
+    background-color: rgb(59, 53, 53);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+.grab img{
+    transform: scale(0.9);
+    transition: all 0.7s;
+}
